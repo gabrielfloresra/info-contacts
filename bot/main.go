@@ -92,9 +92,9 @@ func main() {
 
 	changeStatusService(false)
 
-	os.Setenv("BOT_TOKEN", "5261937952:AAHT_A_6I39eCss_v7IKOMiRutlvdaWRQKE")
-	os.Setenv("APP_ID", "11881918")
-	os.Setenv("API_HASH", "4bb01c7fb81525f667208125165681f4")
+	os.Setenv("BOT_TOKEN", "")
+	os.Setenv("APP_ID", "")
+	os.Setenv("API_HASH", "")
 
 	appID, err := strconv.Atoi(os.Getenv("APP_ID"))
 
